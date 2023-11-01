@@ -1,9 +1,14 @@
+<!-- HTML Document Structure -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metadata and Title -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Google</title>
+
+    <!-- Favicon and Stylesheets -->
     <link rel="icon" href="./images/favicon.jpg" />
     <link rel="stylesheet" href="./style.css" />
     <link
@@ -13,87 +18,106 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- JavaScript File -->
     <script defer src="./main.js"></script>
   </head>
+
   <body>
-      <!-- Header -->
+    <!-- Header Section -->
     <header>
-        <nav class="navbar">
-            <ul>
-                <li>
-                    <a class="link" href="">Gmail</a>
-                </li>
-                <li>
-                    <a class="link" href="">Images</a>
-                </li>
-                <li>
-                    <div class="circle-shadow">
-                        <a class="menu-icon" href=""><i class="fas fa-bars"></i></a>
-                    </div>
-                </li>
-                <li>
-                    <div class="circle-shadow">
-                        <a class="user-icon" href=""><span>M</span></a>
-                    </div>
-                </li>
-            </ul>
-        </nav>
+      <nav class="navbar">
+        <ul>
+          <!-- Gmail Link -->
+          <li>
+            <a class="link" href="">Gmail</a>
+          </li>
+
+          <!-- Images Link -->
+          <li>
+            <a class="link" href="">Images</a>
+          </li>
+
+          <!-- Menu Icon and User Icon with Circle Shadows -->
+          <li>
+            <div class="circle-shadow">
+              <a class="menu-icon" href=""><i class="fas fa-bars"></i></a>
+            </div>
+          </li>
+          <li>
+            <div class="circle-shadow">
+              <a class="user-icon" href=""><span>M</span></a>
+            </div>
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Content -->
+    <!-- Content Section -->
     <section class="content-section">
-        <div class="content-wrapper">
-            <img class="logo-img" src="./images/logo.jpg" alt="Google Logo Image">
-            <div class="search-bar">
-                <i class="fas fa-search"></i>
-                <input id="search-input" class="search-input" type="text">
-                <i class="fas fa-keyboard"></i>
-                <i class="fas fa-microphone"></i>
-            </div>
-            <div class="search-btns">
-                <button class="google-search-btn">Google Search</button>
-                <button class="lucky-search-btn">I'm Feeling Lucky</button>
-            </div>
-            <div class="language">
-                <p>Google Offered in: <a href="">Maori</a></p>
-            </div>
+      <div class="content-wrapper">
+        <!-- Google Logo Image -->
+        <img class="logo-img" src="./images/logo.jpg" alt="Google Logo Image">
+
+        <!-- Search Bar with Icons and Input -->
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input id="search-input" class="search-input" type="text">
+          <i class="fas fa-keyboard"></i>
+          <i class="fas fa-microphone"></i>
         </div>
+
+        <!-- Search Buttons -->
+        <div class="search-btns">
+          <button class="google-search-btn">Google Search</button>
+          <button class="lucky-search-btn">I'm Feeling Lucky</button>
+        </div>
+
+        <!-- Language Section -->
+        <div class="language">
+          <p>Google Offered in: <a href="">Maori</a></p>
+        </div>
+      </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer Section -->
     <footer>
-        <div class="footer-content upper-footer">
-            <p>New Zealand</p>
-        </div>
-        <div class="footer-content lower-footer">
-            <ul class="lower-left-footer">
-                <li>
-                    <a href="">About</a>
-                </li>
-                <li>
-                    <a href="">Advertising</a>
-                </li>
-                <li>
-                    <a href="">Business</a>
-                </li>
-                <li>
-                    <a href="">How Search Works</a>
-                </li>
-            </ul>
-            <ul class="lower-right-footer">
-                <li>
-                    <a href="">Privacy</a>
-                </li>
-                <li>
-                    <a href="">Terms</a>
-                </li>
-                <li>
-                    <a href="">Settings</a>
-                </li>
-            </ul>
-        </div>
+      <div class="footer-content upper-footer">
+        <!-- Location Information (e.g., New Zealand) -->
+        <p>New Zealand</p>
+      </div>
+
+      <!-- Lower Footer with Left and Right Sections -->
+      <div class="footer-content lower-footer">
+        <!-- Lower Left Footer Links -->
+        <ul class="lower-left-footer">
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Advertising</a>
+          </li>
+          <li>
+            <a href="">Business</a>
+          </li>
+          <li>
+            <a href="">How Search Works</a>
+          </li>
+        </ul>
+
+        <!-- Lower Right Footer Links -->
+        <ul class="lower-right-footer">
+          <li>
+            <a href="">Privacy</a>
+          </li>
+          <li>
+            <a href="">Terms</a>
+          </li>
+          <li>
+            <a href="">Settings</a>
+          </li>
+        </ul>
+      </div>
     </footer>
-</body>
-</html>
   </body>
 </html>
